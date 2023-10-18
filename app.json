@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "english-words",
+    "slug": "english-words",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/dicionario.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./src/assets/dicionario.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}

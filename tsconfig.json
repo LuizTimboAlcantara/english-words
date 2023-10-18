@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@mocks/*": ["./src/mocks/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@__tests__/*": ["__tests__/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@services/*": ["./src/services/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@components/*": ["./src/components/*"]
+    }
+  }
+}
